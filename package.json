@@ -1,0 +1,22 @@
+{
+  "name": "scssplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "server": "webpack-dev-server",
+    "start": "npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.10",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
